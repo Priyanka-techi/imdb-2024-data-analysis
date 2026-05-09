@@ -1,0 +1,27 @@
+# IMDb 2024 Data Scraping & Visualization
+# Pinned to versions tested for this project.
+# Install with:  pip install -r requirements.txt
+
+# ── Web scraping ──────────────────────────────────────────────────────────────
+selenium==4.20.0
+
+# ── Data processing ───────────────────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+
+# ── Database ──────────────────────────────────────────────────────────────────
+SQLAlchemy==2.0.30
+
+# ── Visualisation ─────────────────────────────────────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# ── Dashboard ─────────────────────────────────────────────────────────────────
+streamlit==1.35.0
+
+# ── Utilities (pulled in automatically but pinned for reproducibility) ────────
+requests==2.32.3
+urllib3==2.2.1
+certifi==2024.2.2
+charset-normalizer==3.3.2
+idna==3.7
